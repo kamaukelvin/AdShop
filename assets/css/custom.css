@@ -1,0 +1,459 @@
+
+
+.bg-dark {
+    background-color: #343a40 !important;
+    padding: 6em 0;
+    color:#fff;
+}
+
+.page-heading__title {
+    text-transform: none;
+    color: #fff;
+    letter-spacing: -0.02em;
+    font-size: 24px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-size: 55px;
+}
+
+.hero{
+   background-size: cover;
+   background-position: center;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 600px;
+    overflow: hidden;
+}   
+.card__content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+
+
+}
+
+.icon-noun_Angle_2168866 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -50px;
+    color:#000;
+    font-weight: bold;
+}
+.icon-noun_Angle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -50px;
+    color:#000;
+    font-weight: bold;
+}
+.widget__title {
+    text-transform: none;
+    margin-top: 2em;
+}
+
+.carousel-indicators .active {
+    background-color: #4f4f4f;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -22px;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+blockquote {
+    margin: 0 0 1rem;
+    font-size: 22px;
+}
+.card-title {
+    margin-bottom: .75rem;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+a.video-link{
+    position: relative;
+}
+.icon-play2:before {
+    content: "\ea15";
+    font-size: 30px;
+    padding: .3em;
+    position: absolute;
+    top: -12px;
+    left:-50px;
+}
+.posts__title {
+    text-transform: none;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    color:#fff;
+    font-weight: 300;
+    font-size:33px;
+}
+.hero-inner{
+    position: absolute;
+}
+.hero-inner p{
+    font-size: 1.75rem;
+    color: #fff;
+    margin: 0;
+    padding: 1em;
+}
+.hero-btn{
+    position: absolute;
+    top:2rem;
+    right:2rem;
+   
+}
+.hero a{
+    color: #fff;
+    font-size:18px;
+}
+
+.btn-outline{
+    border: 1px solid rgb(238, 167, 34);
+    padding: .4rem 1.5rem;
+    margin: 2em;
+    border-radius: 5px;
+}
+
+input.header-mobile__search-control {
+    border-radius: 8px;
+    height: 46px;
+    background-color: #fff;
+    padding: 6px 60px 6px 35px;
+    font-size: 18px;
+}
+
+.header-mobile__search-submit {
+        color: #fff;
+        background: rgb(238, 167, 34);
+        border-radius: 8px;
+        top: 3px;
+        right: 2px;
+        line-height: 33px;
+        width: 20%;
+        height: 40px;
+    }
+    .posts__item--card .posts__inner {
+        padding: .6em .4em;
+        position: relative;
+        text-align: left;
+        color: #000;
+    }
+    .card img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    i.icon-youtube:before {
+ 
+        font-size: 35px;
+        margin-right: 20px;
+        color: rgb(238, 167, 34);
+    }
+   
+    .terms{
+        text-align: center;
+        padding:0 3em;
+        margin-right: 3em;
+    }
+    .posts__item--card{
+        box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2);
+    }
+    .widget__title{
+        text-transform: none;
+    }
+    .posts__item>a{
+        color:#3d3d3d
+    }
+    .social-links__item .fa {
+        font-size: 35px;
+        margin-right: 20px;
+        color: rgb(238, 167, 34);
+        -webkit-transition: color 0.2s ease;
+        transition: color 0.2s ease;
+    }
+    .info-block__item{
+        border-top: 1px solid #9a9da2
+
+    }
+    .social-links{
+        padding:2em 0 4em 0;
+    }
+    .custom-select{
+        margin-top: 2em;
+        color:rgb(238, 167, 34);
+        border:1px solid rgb(238, 167, 34);
+        margin-left: auto;
+    }
+
+
+    
+element.style {
+    display: block;
+}
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+.header-mobile__search-submit:hover {
+    background-color: rgb(238, 167, 34);
+    cursor: pointer ;
+}
+.slider__image{
+    padding: 10em;
+    background-size: cover ;
+}
+/*------------------------------------------------------------------
+      						SECTION STYLES
+-------------------------------------------------------------------*/
+
+section { 
+    margin: 50px 0;
+}
+section ul{
+    width:100%;
+  
+}
+section ul li {
+    float: left;
+    height: 126px;
+    width: 33.3%;
+    text-align: center;
+    cursor: pointer;
+    list-style-type: none;
+    margin: 20px 0;
+    font-size:18px;
+}
+
+section span {
+ 	padding: 15px 0;
+	 font-size: 4em;
+    display: block;
+    transition: all .2s ease-in-out;
+}
+
+section li:hover span {
+    transform: translateY(-10px);
+}
+ .posts__thumb  {
+    padding: 5em;
+    background-size: cover;
+}
+input.header-mobile__search-control:focus {
+    background-color: white;
+    border-color: #292c31;
+    color:#000;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    outline: none;
+    background-color: transparent;
+    color: transparent;
+}
+.footer-search{
+    color: #fff;
+    background: rgb(238, 167, 34);
+    border-radius: 5px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    line-height: 33px;
+    width: 20%;
+    height: 45px;
+    padding: 0 4em 0 1em;
+    position: absolute;
+    border: none;
+}
+.header__top-bar {
+    background-color: #000;
+ 
+}
+
+.nav-account {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    justify-content: center;
+    float: none;
+}
+.nav-account .nav-account__item {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.5em;
+    text-transform: none;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 3em;
+
+}
+.nav-account .nav-account__item::before {
+    content: "";
+    display: inline-block;
+    margin: 0 16px 0 14px;
+}
+.post-grid__item{
+    padding: 2em;
+}
+
+
+/* media queries */
+    @media (min-width: 992px){
+.header-search-form {
+    display: inline-block;
+    width: 80%;
+}}
+
+
+
+@media(max-width: 600px){
+
+.page-heading__title {
+    font-size: 32px;
+}
+.hero-inner p {
+    font-size: 1.25rem;
+    margin-bottom:-1em;
+
+}
+.news-feed{
+    padding: 0 2em;
+}
+.terms{
+    padding: 0 3em;
+    margin-right:0;
+}
+
+.bg-dark {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3em 0;
+
+}
+section ul{
+    padding:0;
+}
+
+section ul li{
+    width: 50%;
+
+}
+.footer-widgets__inner{
+
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: -2em;
+}
+
+.hero a {
+    font-size: 14px;
+}
+.hero-btn {
+    position: absolute;
+    top: -1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 5rem;
+
+}
+.social-links {
+    padding: 20px;
+    margin: auto;
+}
+.footer-secondary__inner {
+    padding: 50px 0;
+}
+.custom-select {
+    margin: 0em 7em 2em 7em;
+
+}
+}
+
+@media(min-width: 768px)and (max-width:992px){
+    .page-heading__title {
+        text-transform: none;
+        color: #fff;
+        letter-spacing: -0.02em;
+        font-size: 24px;
+        margin-bottom: 0;
+        font-style: normal;
+        font-size: 45px;
+        padding-top: 2em;
+    }
+    .hero{
+        min-height: 450px;
+    }
+    .carousel {
+        position: relative;
+        padding: 0 2em;
+    }
+    .icon-noun_Angle_2168866:before {
+        content: "\e907";
+        position: absolute;
+        right: 24px;
+    }
+    .header-search-form{
+    padding: 0 25px;
+    height: 100%;
+    top: 0;
+}
+.post-grid__item {
+    padding: 6px;
+} 
+
+.terms {
+    margin: auto;
+    padding:0
+}
+.footer-widgets__inner {
+    padding: 0;
+}
+.footer-secondary__inner {
+    padding: 50px 0;
+}
+    .icon-noun_Angle:before {
+        content: "\e906";
+        position: absolute;
+        left: 24px;
+    } 
+}
+@media (max-width: 430px){
+    .social-links {
+        padding:20px  0px ;
+        margin-left:13px;
+    }
+    .post-grid__item {
+        padding: 0em;
+    }
+    .hero{
+        min-height: 330px;
+    }
+}
